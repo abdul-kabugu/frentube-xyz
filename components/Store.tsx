@@ -121,7 +121,7 @@ export default function App() {
                 connecting
               </Chip>
             )}{' '}
-            to Subsocial's {getNetworkName(network)}
+            to Subsocials {getNetworkName(network)}
           </div>
           <div className='connection'>
             and the configuration can be seen in{' '}
