@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Sidebar, TopNav } from '@/components'
 import UploadPage from '@/components/UploadPage'
 import { Box , HStack, Hide, } from '@chakra-ui/react'
