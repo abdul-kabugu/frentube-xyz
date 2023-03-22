@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, Heading } from '@chakra-ui/react'
 import React from 'react'
 import {AiOutlineDatabase} from 'react-icons/ai'

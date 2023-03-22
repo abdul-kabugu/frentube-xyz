@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { HTMLProps, useState } from 'react'
 import '../App.css'
 

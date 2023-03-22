@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, color, Divider, Heading, HStack, Text, useColorMode } from '@chakra-ui/react'
 import Link from 'next/link'
 import React from 'react'

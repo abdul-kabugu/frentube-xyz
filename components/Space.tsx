@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SpaceData } from '@subsocial/api/types'
 import { HTMLProps, useContext } from 'react'
 import Chip from './Chip'

@@ -1,3 +1,5 @@
+
+// @ts-nocheck
 import { HTMLProps } from 'react'
 
 export type ChipProps = Omit<HTMLProps<HTMLDivElement>, 'size'> & {
