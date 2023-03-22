@@ -9,7 +9,7 @@ export default function AboutUser() {
 
      
          <AiOutlineDatabase   size={70}  />
-          <Heading fontSize="xl">No  Data</Heading>
+          <h1>No  Data</h1>
           </Box>
   </Box>
     </Box>
