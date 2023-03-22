@@ -58,7 +58,7 @@ export default function TopNav() {
         placeholder="Search By Name or Tag " variant="unstyled" border="1px solid" borderColor={'gray.300'}
          px={4} py={3} h={10} borderRadius={15}
       />
-      <InputRightElement children = {<AiOutlineSearch size={26} color="gray" cursor="pointer" />}  />
+      <InputRightElement>{<AiOutlineSearch size={26} color="gray" cursor="pointer" />} </InputRightElement> 
       </InputGroup>
       </Hide>
       {

@@ -63,7 +63,7 @@ export default function App() {
 
     if (getNetworkName(network) === 'Mainnet') {
       console.log({
-        message: 'You need to use your own IPFS endpoint to store data.',
+        message: 'You need to use your own IPFS endpoint to store data',
       })
       return
     }
@@ -75,7 +75,7 @@ export default function App() {
     // your mnemonic (MAKE SURE TO HIDE MNEOMIC BEFORE UPLOADING TO PUBLIC NETWORK).
     const cid = await api!.ipfs.saveContent({
       about:
-        'Subsocial is an open protocol for decentralized social networks and marketplaces. It`s built with Substrate and IPFS',
+        'Subsocial is an open protocol for decentralized social networks and marketplaces. Its built with Substrate and IPFS',
       image: null,
       name: 'Subsocial',
       tags: ['subsocial'],

@@ -63,7 +63,7 @@ export default function VideoDetails({}) {
 
       if(isPostsLoading || loading){
         return(
-           <Box alignSelf="start"  w="100%" display="flex"  gap={2}   w={{base : "100vw", md : "70vw", lg : "75vw"}}>
+           <Box alignSelf="start"   display="flex"  gap={2}   w={{base : "100vw", md : "70vw", lg : "75vw"}}>
              <Box width="100%">
             <Skeleton>
             <Box w="100%"  rounded="sm" h={{base : 200, md : 300, lg : 450}} ></Box>
