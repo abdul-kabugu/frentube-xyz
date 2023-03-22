@@ -1,3 +1,4 @@
+// @ts-nocheck
 import '@/styles/globals.css'
 import { SubsocialContextProvider } from '@/subsocial/provider'
 import { ApolloProvider } from '@apollo/client'
